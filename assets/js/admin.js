@@ -55,13 +55,10 @@
     // Classic editor and quick/bulk edit bootstrap
     function bootClassic(){
         // Post editor metaboxes (classic and legacy taxonomy boxes)
-        $('.categorydiv, .taxonomydiv').each(function(){
+        $('#categorydiv, #taxonomydiv').each(function(){
             var $box = $(this);
             var label = $box.find('h2, h3, .handlediv').first().text() || 'categories';
-            var tabs = $box.find('.tabs-panel, .inside');
-            tabs.each(function(){
-                addFilterInput($(this), label);
-            });
+            addFilterInput($box.find('.tabs-panel, .inside').first(), label);
         });
 
         // Quick edit on posts list
