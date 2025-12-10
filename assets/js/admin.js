@@ -58,7 +58,10 @@
         $('.categorydiv, .taxonomydiv').each(function(){
             var $box = $(this);
             var label = $box.find('h2, h3, .handlediv').first().text() || 'categories';
-            addFilterInput($box.find('.tabs-panel, .inside').first(), label);
+            var tabs = $box.find('.tabs-panel, .inside');
+            tabs.each(function(){
+                addFilterInput($(this), label);
+            });
         });
 
         // Quick edit on posts list
