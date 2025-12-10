@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Post Category Filter\n"
-"POT-Creation-Date: 2025-12-06 15:55+0100\n"
+"POT-Creation-Date: 2025-12-10 08:43+0100\n"
 "PO-Revision-Date: 2025-12-06 15:54+0100\n"
 "Last-Translator: Ivijan-Stefan Stipić <infinitumform@gmail.com>\n"
 "Language-Team: Ivijan-Stefan Stipić <infinitumform@gmail.com>\n"
@@ -27,7 +27,7 @@ msgid "Filter %s"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "Post Category Filter"
+msgid "Post Category Filter (WP Admin)"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
@@ -36,8 +36,8 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Filter categories and taxonomies in the WordPress admin area. Continued "
-"development of the original plugin by Javier Villanueva (jahvi)."
+"Quickly search and filter categories and taxonomies inside the "
+"WordPress admin."
 msgstr ""
 
 #. Author of the plugin/theme

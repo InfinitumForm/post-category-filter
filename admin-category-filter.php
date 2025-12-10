@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name:       Post Category Filter
+ * Plugin Name:       Post Category Filter (WP Admin)
  * Plugin URI:        https://infinitumform.com/projects/admin-category-filter
- * Description:       Filter categories and taxonomies in the WordPress admin area. Continued development of the original plugin by Javier Villanueva (jahvi).
+ * Description:       Quickly search and filter categories and taxonomies inside the WordPress admin.
  * Version:           1.7.0
  * Requires at least: 6.0
  * Requires PHP:      7.4
